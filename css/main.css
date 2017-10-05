@@ -46,7 +46,7 @@ div > .dfn {
   color: #fff;
 }
 
-a:not(.no-higlight) {
+a:not(.no-highlight) {
   background-color: #719e07;
 }
 
@@ -54,11 +54,11 @@ a:not(.no-higlight) {
   background-color: #2694d8;
 }
 
-ol:first-child {
+ol li:first-child {
   color: #719e47;
 }
 
-ol:last-child {
+ol li:last-child {
   color: #2aa198;
 }
 
