@@ -38,11 +38,11 @@ ul {
   color: #93a1a1;
 }
 
-div > .dfn {
+.wrapper > .dfn {
   background-color: #b58900;
 }
 
-.dfn + strong {
+p + strong {
   color: #fff;
 }
 
@@ -62,14 +62,14 @@ ol li:last-child {
   color: #2aa198;
 }
 
-.types:nth-child(odd) {
+.types > li:nth-child(odd) {
   background-color: #657ba3;
 }
 
-.types:nth-child(even) {
+.types > li:nth-child(even) {
   background-color: #586e75;
 }
 
-.types:nth-child(3) {
+.types > li:nth-child(3n) {
   background-color: #d04b16;
 }
